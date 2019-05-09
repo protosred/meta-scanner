@@ -1,0 +1,23 @@
+{
+  "name": "meta-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "pkg . --targets win --output bin/win32/meta-scraper.exe && pkg . --targets macos --output bin/macos/meta-scraper && pkg . --targets linux --output bin/linux/meta-scraper",
+    "make-zip": "zip -r source-code.zip . -x \"node_modules/**\" -x \"bin/**\" -x \"*.csv\""
+  },
+  "keywords": [],
+  "author": "Protos RED - admin@protos.red",
+  "license": "ISC",
+  "bin": "bin.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "fast-csv": "^2.5.0",
+    "inquirer": "^6.3.1",
+    "is-url": "^1.2.4",
+    "listr": "^0.14.3",
+    "rxjs": "^6.5.1",
+    "supercrawler": "^1.7.0"
+  }
+}
