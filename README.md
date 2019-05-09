@@ -5,10 +5,12 @@ Simple tool for checking META data (title, descriptions, robots directive,...) o
 ![functionality demo](https://www.protos.red/static/meta-scanner/recording.gif)
 
 **Official Page**
+
 https://www.protos.red/meta-scanner
 
 **Part of a "One bot per day" series on /r/bigseo subreddit**
-URL TBA
+
+https://www.reddit.com/r/bigseo/comments/bmmm1i/meta_scanner_onebotperday_210/
 
 ## To compile binaries:
 - Install Node.js 8.1.1
